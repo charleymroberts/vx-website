@@ -6,11 +6,14 @@ body {
 /* header */
 
 header {
-    height: 15rem;
-    width: 15rem;
+    height: 16rem;
+    width: 16rem;
     background-color: #081d21;
     margin-left: 2rem;
+    margin-top: 1rem;
     opacity: 0.9;
+    position: absolute;
+    z-index: 5;
 }
 
 h1 {
@@ -18,6 +21,7 @@ h1 {
     color: #f1f7ed;
     font-size: 3rem;
     padding: 1rem;
+    margin: 0;
 }
 
 /* nav bar */
@@ -25,18 +29,30 @@ h1 {
 nav {
     float: right;
     margin-right: 1.5rem;
-    max-width: 66%;
 }
 
 nav li {
     font-family: 'Special Elite', cursive;
     font-size: 1.5rem;
-    display: inline;
+    display: inline-block;
     padding: 0.5rem;
 }
 
 .active-nav-link {
     text-decoration: underline;
+}
+
+/* hero image */
+
+#homepage-main-image {
+    background-image: url('../assets/images/homepage-banner.jpeg');
+    width: 100%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.95;
+    margin-top: 5rem;
 }
 
 /* homepage subheadings */
