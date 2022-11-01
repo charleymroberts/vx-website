@@ -3,24 +3,53 @@ body {
     background-color: #f1f7ed;
 }
 
+/* header */
+
 header {
-    height: 230px;
-    width: 20%;
+    height: 15rem;
+    width: 15rem;
     background-color: #081d21;
-    margin-left: 30px;
+    margin-left: 2rem;
+    opacity: 0.9;
 }
 
 h1 {
     font-family: 'Kaushan Script', cursive;
     color: #f1f7ed;
-    font-size: 3em;
-    padding: 10px;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+/* nav bar */
+
+nav {
+    float: right;
+    margin-right: 1.5rem;
+    max-width: 66%;
 }
 
 nav li {
     font-family: 'Special Elite', cursive;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 0.5rem;
 }
+
+.active-nav-link {
+    text-decoration: underline;
+}
+
+/* homepage subheadings */
 
 h2, h3 {
     font-family: 'Special Elite', cursive;
 }
+
+#tagline {
+    text-align: center;
+}
+
+#band-members {
+    text-align: center;
+}
+
