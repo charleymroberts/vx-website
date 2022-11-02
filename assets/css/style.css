@@ -105,6 +105,8 @@ h2 {
 
 .homepage-link-container {
     margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
 }
 
 .homepage-link-image {
@@ -152,4 +154,39 @@ h2 {
 
 #gigs-homepage-image:hover, #music-homepage-image:hover, #about-homepage-image:hover {
     opacity: 0.7;
+}
+
+@media screen and (max-width: 850px) {
+
+    header {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    nav {
+        margin-left: 8rem;
+    }
+
+    #homepage-main-image {
+        background-image: url('../../assets/images/homepage-banner-narrower.jpeg');
+        height: 15rem;
+    }
+
+    .homepage-link-image {
+        min-width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .homepage-link-image {
+        min-width: 90%;
+    }
+
 }
