@@ -132,7 +132,7 @@ h2 {
 
 #music-homepage-image {
     background-image: url(../../assets/images/band-playing-small.jpeg);
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.95;
@@ -142,6 +142,6 @@ h2 {
     background-image: url(../../assets/images/vx-photo-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     opacity: 0.95;
 }
