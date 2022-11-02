@@ -29,6 +29,7 @@ h1 {
 nav {
     float: right;
     margin-right: 1.5rem;
+    margin-left: 17rem;
 }
 
 nav li {
@@ -43,7 +44,7 @@ nav li {
 }
 
 nav li:hover {
-    color: #C2A83E;
+    color: purple;
 }
 
 footer {
@@ -58,11 +59,8 @@ footer {
 
 .social-media-icons i {
     color: #f1f7ed;
-    /* display: inline; */
     font-size: 160%;
     padding: 0.75rem;
-    /* position: absolute; */
-    /* margin: 0 auto; */
 }
 
 /* hero image */
@@ -76,6 +74,7 @@ footer {
     overflow: hidden;
     opacity: 0.95;
     margin-top: 5rem;
+    background-position: right;
 }
 
 /* homepage subheadings */
@@ -104,11 +103,12 @@ h2 {
 
 .homepage-link-image {
     width: 31%;
-    height: 200px;
+    height: 250px;
     display: inline-block;
     border: 1px solid black;
     margin: 0.5rem;
     position: relative;
+    overflow: hidden;
 }
 
 .homepage-link-image h2 {
@@ -119,4 +119,17 @@ h2 {
     background-color: #081d21;
     padding: 1.5%;
     border-radius: 10%;
+}
+
+#gigs-homepage-image {
+    background-image: url(../../assets/images/gigs-homepage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-homepage-image {
+    background-image: url(../../assets/images/vx-photo-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
