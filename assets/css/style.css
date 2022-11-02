@@ -97,6 +97,8 @@ h2 {
     font-size: 1.2rem;
 }
 
+/* links with images across homepage */
+
 .homepage-link-container {
     margin-left: 1rem;
 }
@@ -128,8 +130,18 @@ h2 {
     background-repeat: no-repeat;
 }
 
+#music-homepage-image {
+    background-image: url(../../assets/images/band-playing-small.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
 #about-homepage-image {
     background-image: url(../../assets/images/vx-photo-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    opacity: 0.95;
 }
