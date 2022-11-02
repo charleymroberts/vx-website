@@ -188,10 +188,12 @@ h2 {
 
     #homepage-main-image {
         height: 12rem;
+        background-position: center top;
     }
 
     .homepage-link-image {
-        min-width: 95%;
+        width: 100%;
+        height: 200px;
     }
 
     nav {
@@ -201,6 +203,7 @@ h2 {
     #band-members {
         margin: 0 auto;
         font-size: 1rem;
+        padding: 0;
     }
 
 }
