@@ -42,6 +42,29 @@ nav li {
     text-decoration: underline;
 }
 
+nav li:hover {
+    color: #C2A83E;
+}
+
+footer {
+    height: 3rem;
+    background-color: #081d21;
+    opacity: 0.95;
+}
+
+.social-media-icons {
+    text-align: center;
+}
+
+.social-media-icons i {
+    color: #f1f7ed;
+    /* display: inline; */
+    font-size: 160%;
+    padding: 0.75rem;
+    /* position: absolute; */
+    /* margin: 0 auto; */
+}
+
 /* hero image */
 
 #homepage-main-image {
