@@ -180,7 +180,8 @@ h2 {
 
     #homepage-main-image {
         background-image: url('../../assets/images/homepage-banner-narrower.jpeg');
-        height: 15rem;
+        height: 25rem;
+        background-position: center top;
     }
 
     .homepage-link-image {
@@ -192,8 +193,7 @@ h2 {
 @media screen and (max-width: 400px) {
 
     #homepage-main-image {
-        height: 12rem;
-        background-position: center top;
+        height: 15rem;
     }
 
     .homepage-link-image {
