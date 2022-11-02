@@ -16,6 +16,10 @@ header {
     z-index: 5;
 }
 
+header:hover {
+    opacity: 0.9;
+}
+
 h1 {
     font-family: 'Kaushan Script', cursive;
     color: #f1f7ed;
@@ -144,4 +148,8 @@ h2 {
     background-size: cover;
     background-position: center top;
     opacity: 0.95;
+}
+
+#gigs-homepage-image:hover, #music-homepage-image:hover, #about-homepage-image:hover {
+    opacity: 0.7;
 }
