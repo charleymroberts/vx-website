@@ -201,7 +201,7 @@ dd {
     margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
 
     header {
         height: 8rem;
@@ -234,7 +234,7 @@ dd {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     #homepage-main-image {
         height: 15rem;
