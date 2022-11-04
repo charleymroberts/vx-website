@@ -180,10 +180,14 @@ h2 {
     background-position: right;
 }
 
+/* titles of other pages */
+
 .page-title {
     text-align: center;
     font-size: 200%;
 }
+
+/* gig list page */
 
 #gig-list {
     margin-left: 1rem;
@@ -204,6 +208,11 @@ dt {
 
 dd {
     margin-bottom: 0.5rem;
+    margin-left: 0;
+}
+
+dd a {
+    text-decoration: underline;
 }
 
 /* @media screen and (max-width: 1150px) {
