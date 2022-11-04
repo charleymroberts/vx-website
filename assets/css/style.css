@@ -250,6 +250,11 @@ dd a {
         background-position: center top;
     }
 
+    .page-main-image {
+        background-image: url('../../assets/images/page-banner-narrower.jpg');
+        background-position: center top;
+    }
+
     .homepage-link-image {
         min-width: 45%;
     }
