@@ -228,6 +228,24 @@ dd a {
     margin-left: 2rem;
 }
 
+#videos {
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.video {
+    margin: 2rem;
+}
+
+.media-description {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: sans-serif;
+}
+
 /* @media screen and (max-width: 1150px) {
 
     .homepage-link-image {
