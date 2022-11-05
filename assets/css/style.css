@@ -215,6 +215,12 @@ dd a {
     text-decoration: underline;
 }
 
+/* Music page */
+
+#audio-tracks {
+    margin-left: 2rem;
+}
+
 /* @media screen and (max-width: 1150px) {
 
     .homepage-link-image {
