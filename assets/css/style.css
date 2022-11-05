@@ -323,8 +323,11 @@ p {
 
     .media-description {
         max-width: 500px;
-        margin-left; 1rem;
+        margin-left: 1rem;
     }
 
+    iframe {
+        max-width: 100%;
+    }
 }
 
