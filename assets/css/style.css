@@ -235,6 +235,7 @@ dd a {
 
 .video {
     margin: 2rem;
+    max-width: 100%;
 }
 
 .media-description {
@@ -318,6 +319,11 @@ p {
 
     dd {
         margin-right: 1rem;
+    }
+
+    .media-description {
+        max-width: 500px;
+        margin-left; 1rem;
     }
 
 }
