@@ -219,6 +219,13 @@ dd a {
 
 #audio-tracks {
     margin-left: 2rem;
+    text-align: center;
+}
+
+.audio-player {
+    display: inline-block;
+    clear: both;
+    margin-left: 2rem;
 }
 
 /* @media screen and (max-width: 1150px) {
