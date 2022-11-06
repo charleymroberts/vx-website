@@ -199,7 +199,7 @@ h3 {
 }
 
 dl {
-    font-family: sans-serif;
+    font-family: Avenir, Arial, sans-serif;
 }
 
 dt {
@@ -245,7 +245,27 @@ dd a {
 }
 
 p {
-    font-family: sans-serif;
+    font-family: Avenir, sans-serif;
+}
+
+#about-us {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+/* about page */
+
+#about-the-band-photo {
+    width: 20rem;
+    height: auto;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#about-us ul {
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 /* @media screen and (max-width: 1150px) {
