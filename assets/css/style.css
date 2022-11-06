@@ -218,41 +218,34 @@ dd a {
 /* Music page */
 
 #audio-tracks {
-    margin-left: 2rem;
+    margin-left: 1rem;
     text-align: center;
 }
 
 .audio-player {
     display: inline-block;
     clear: both;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 #videos {
-    margin-left: 2rem;
+    margin-left: 1rem;
     text-align: center;
 }
 
 .video {
-    margin: 2rem;
+    margin: 1rem;
     max-width: 100%;
+    /* overflow: hidden; */
 }
 
 .media-description {
     max-width: 500px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 p {
     font-family: sans-serif;
-}
-
-iframe {
-    border: none;
-    overflow: hidden;
-    width: 35rem;
-    height: 20rem;
-    margin: 0;
 }
 
 /* @media screen and (max-width: 1150px) {
@@ -329,9 +322,19 @@ iframe {
         margin-right: 1rem;
     }
 
+    #audio-tracks, #videos {
+        margin-left: 0;
+    }
+
     .media-description {
         max-width: 500px;
-        margin-left: 1rem;
+        margin: 0.5rem;
+    }
+
+    .video {
+        width: 20rem;
+        height: 12rem;
+        margin: 0 auto;
     }
 
     iframe {
