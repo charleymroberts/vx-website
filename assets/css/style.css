@@ -248,19 +248,11 @@ p {
     font-family: Avenir, sans-serif;
 }
 
+/* about page */
+
 #about-us {
     margin: 0 auto;
     max-width: 60%;
-}
-
-/* about page */
-
-#about-the-band-photo {
-    width: 20rem;
-    height: auto;
-    float: right;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
 }
 
 #about-us ul {
@@ -313,6 +305,11 @@ p {
         min-width: 45%;
     }
 
+    #about-us {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -358,6 +355,11 @@ p {
     }
 
     iframe {
+        max-width: 100%;
+    }
+
+    #about-us {
+        margin: 1rem;
         max-width: 100%;
     }
 }
