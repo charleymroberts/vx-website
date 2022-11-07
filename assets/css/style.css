@@ -273,6 +273,18 @@ p {
     max-width: 100%;
 }
 
+/* Promo and tech page */
+
+#promo-page {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.download-link {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
 /* @media screen and (max-width: 1150px) {
 
     .homepage-link-image {
