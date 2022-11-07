@@ -285,6 +285,13 @@ p {
     text-decoration: underline;
 }
 
+/* Contact page */
+
+#contact-methods {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
 /* @media screen and (max-width: 1150px) {
 
     .homepage-link-image {
