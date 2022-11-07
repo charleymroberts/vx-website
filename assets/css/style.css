@@ -262,6 +262,7 @@ p {
 
 .about-page-video {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .about-page-video iframe {
@@ -373,6 +374,11 @@ p {
     #about-us {
         margin: 1rem;
         max-width: 100%;
+    }
+
+    .about-page-video iframe {
+        width: 350px;
+        height: 196px;
     }
 }
 
