@@ -260,6 +260,18 @@ p {
     font-weight: bold;
 }
 
+.about-page-video {
+    text-align: center;
+}
+
+.about-page-video iframe {
+    max-width: 100%;
+}
+
+.about-us-image {
+    max-width: 100%;
+}
+
 /* @media screen and (max-width: 1150px) {
 
     .homepage-link-image {
