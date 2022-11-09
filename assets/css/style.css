@@ -236,7 +236,6 @@ dd a {
 .video {
     margin: 1rem;
     max-width: 100%;
-    /* overflow: hidden; */
 }
 
 .media-description {
@@ -285,12 +284,36 @@ p {
     text-decoration: underline;
 }
 
+.link {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
 /* Contact page */
 
 #contact-methods {
     margin: 0 auto;
     max-width: 60%;
 }
+
+#contact-methods i {
+    margin-right: 0.5rem;
+}
+
+td:first-of-type {
+    text-align: right;
+    vertical-align: top;
+}
+
+td {
+    font-family: Avenir, Arial, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    font-family: Avenir, Arial, sans-serif;
+}
+
 
 /* @media screen and (max-width: 1150px) {
 
