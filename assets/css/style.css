@@ -85,7 +85,7 @@ footer {
     overflow: hidden;
     opacity: 0.95;
     margin-top: 5rem;
-    background-position: right;
+    background-position: right top;
 }
 
 /* homepage subheadings */
@@ -304,12 +304,12 @@ p {
     margin-right: 0.5rem;
 }
 
-#contact-methods label, input, textarea, button {
+#contact-methods label, #contact-methods input, #contact-methods textarea, #contact-methods button {
     display: block;
     font-family: Avenir, Arial, sans-serif;
 }
 
-#contact-methods input, textarea, button {
+#contact-methods input, #contact-methods textarea, #contact-methods button {
     margin-bottom: 0.5rem;
 }
 
@@ -320,7 +320,7 @@ button {
 @media screen and (max-width: 900px) {
 
     header {
-        height: 8rem;
+        height: 7rem;
         width: 8rem;
         margin-left: 0.5rem;
     }
@@ -385,7 +385,12 @@ button {
     }
 
     nav {
-        margin-left: 50%;
+        margin-left: 35%;
+    }
+
+    nav li {
+        font-size: 1rem;
+        padding: 0.3rem;
     }
 
     #band-members {
