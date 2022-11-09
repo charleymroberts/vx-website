@@ -289,6 +289,10 @@ p {
     text-decoration: underline;
 }
 
+#promo-photo, #tech-spec {
+    max-width: 100%;
+}
+
 /* Contact page */
 
 #contact-methods {
@@ -424,10 +428,12 @@ button {
 
     #promo-page {
         max-width: 100%;
+        margin: 0.5rem;
     }
 
     #contact-methods {
         max-width: 100%;
+        margin: 0.5rem;
     }
 }
 
