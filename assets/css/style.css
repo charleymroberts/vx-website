@@ -314,15 +314,6 @@ button {
     font-family: Avenir, Arial, sans-serif;
 }
 
-
-/* @media screen and (max-width: 1150px) {
-
-    .homepage-link-image {
-        min-width: 45%;
-    }
-
-} */
-
 @media screen and (max-width: 900px) {
 
     header {
@@ -363,6 +354,14 @@ button {
     #about-us {
         margin: 0 auto;
         max-width: 80%;
+    }
+
+    #promo-page {
+        max-width: 85%;
+    }
+
+    #contact-methods {
+        max-width: 85%;
     }
 
 }
@@ -421,6 +420,14 @@ button {
     .about-page-video iframe {
         width: 350px;
         height: 196px;
+    }
+
+    #promo-page {
+        max-width: 100%;
+    }
+
+    #contact-methods {
+        max-width: 100%;
     }
 }
 
