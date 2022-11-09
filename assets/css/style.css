@@ -304,14 +304,13 @@ p {
     margin-right: 0.5rem;
 }
 
-td:first-of-type {
-    text-align: right;
-    vertical-align: top;
+#contact-methods label, input, textarea, button {
+    display: block;
+    font-family: Avenir, Arial, sans-serif;
 }
 
-td {
-    font-family: Avenir, Arial, sans-serif;
-    font-weight: bold;
+#contact-methods input, textarea, button {
+    margin-bottom: 0.5rem;
 }
 
 button {
