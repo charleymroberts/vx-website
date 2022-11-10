@@ -1,3 +1,4 @@
+/* Google Fonts script for both header fonts used on this site */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Special+Elite&display=swap');
 
 body {
@@ -39,7 +40,7 @@ nav {
 }
 
 nav li {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;
     display: inline-block;
     padding: 0.5rem;
@@ -91,7 +92,7 @@ footer {
 /* homepage subheadings */
 
 h2 {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', sans-serif;
 }
 
 #tagline {
@@ -105,7 +106,7 @@ h2 {
 
 #band-members li {
     display: inline-block;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', sams-serif;
     font-size: 1.2rem;
 }
 
@@ -187,7 +188,7 @@ h2 {
     font-size: 200%;
 }
 
-/* page width and centering for all pages apart from homepage */
+/* page width and centering of main body content for all pages apart from homepage */
 
 main {
     max-width: 60%;
@@ -255,7 +256,7 @@ dd a {
 }
 
 p {
-    font-family: Avenir, sans-serif;
+    font-family: Avenir, Arial, sans-serif;
 }
 
 /* about page */
@@ -266,7 +267,7 @@ p {
 } */
 
 #about-gig-list li {
-    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-family: Avenir, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -426,13 +427,12 @@ button {
     }
 
     .video {
-        width: 20rem;
-        height: 12rem;
         margin: 0 auto;
     }
 
     iframe {
-        max-width: 100%;
+        width: 320px;
+        height: 179px;
     }
 
     main {
