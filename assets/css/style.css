@@ -291,10 +291,10 @@ p {
     margin: 0 auto;
 } */
 
-.download-link {
+/* .download-link {
     color: #0000ff;
     text-decoration: underline;
-}
+} */
 
 .link {
     color: #0000ff;
@@ -421,10 +421,10 @@ button {
         margin-left: 0;
     }
 
-    .media-description {
+    /* .media-description {
         max-width: 500px;
         margin: 0.5rem;
-    }
+    } */
 
     .video {
         margin: 0 auto;
@@ -433,6 +433,7 @@ button {
     iframe {
         width: 320px;
         height: 179px;
+        max-width: 100%;
     }
 
     main {
