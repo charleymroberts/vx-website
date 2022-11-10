@@ -251,7 +251,7 @@ dd a {
 }
 
 .media-description {
-    max-width: 500px;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -421,10 +421,9 @@ button {
         margin-left: 0;
     }
 
-    /* .media-description {
-        max-width: 500px;
-        margin: 0.5rem;
-    } */
+    .media-description {
+        max-width: 100%;
+    } 
 
     .video {
         margin: 0 auto;
@@ -434,6 +433,7 @@ button {
         width: 320px;
         height: 179px;
         max-width: 100%;
+        margin: 0;
     }
 
     main {
