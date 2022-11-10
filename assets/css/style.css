@@ -187,10 +187,21 @@ h2 {
     font-size: 200%;
 }
 
+/* page width and centering for all pages apart from homepage */
+
+main {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 /* gig list page */
 
-#gig-list {
+/* #gig-list {
     margin-left: 1rem;
+    text-align: center;
+} */
+
+#upcoming-gigs, #past-gigs {
     text-align: center;
 }
 
@@ -249,12 +260,12 @@ p {
 
 /* about page */
 
-#about-us {
+/* #about-us {
     margin: 0 auto;
     max-width: 60%;
-}
+} */
 
-#about-us ul {
+#about-gig-list li {
     font-family: Avenir, Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -274,10 +285,10 @@ p {
 
 /* Promo and tech page */
 
-#promo-page {
+/* #promo-page {
     max-width: 60%;
     margin: 0 auto;
-}
+} */
 
 .download-link {
     color: #0000ff;
@@ -295,10 +306,10 @@ p {
 
 /* Contact page */
 
-#contact-methods {
+/* #contact-methods {
     margin: 0 auto;
     max-width: 60%;
-}
+} */
 
 #contact-methods i {
     margin-right: 0.5rem;
@@ -354,7 +365,11 @@ button {
         min-width: 45%;
     }
 
-    #about-us {
+    main {
+        max-width: 85%;
+    }
+
+    /* #about-us {
         margin: 0 auto;
         max-width: 80%;
     }
@@ -365,7 +380,7 @@ button {
 
     #contact-methods {
         max-width: 85%;
-    }
+    } */
 
 }
 
@@ -420,25 +435,30 @@ button {
         max-width: 100%;
     }
 
-    #about-us {
+    main {
+        max-width: 100%;
+        margin: 0.5rem;
+    }
+
+    /* #about-us {
         margin: 1rem;
         max-width: 100%;
-    }
+    } */
 
     .about-page-video iframe {
         width: 350px;
         height: 196px;
     }
 
-    #promo-page {
+    /* #promo-page {
         max-width: 100%;
         margin: 0.5rem;
-    }
+    } */
 
-    #contact-methods {
+    /* #contact-methods {
         max-width: 100%;
         margin: 0.5rem;
-    }
+    } */
 
     #contact-methods textarea {
         margin-right: 0.5rem;
