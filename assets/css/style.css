@@ -1,9 +1,23 @@
 /* Google Fonts script for both header fonts used on this site */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mulish:wght@400;700&family=Special+Elite&display=swap');
 
 body {
     margin: 0;
     background-color: #f1f7ed;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #f1f7ed;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+h2, h3, nav {
+    font-family: 'Special Elite', sans-serif;
 }
 
 /* header */
@@ -23,14 +37,6 @@ header:hover {
     opacity: 0.9;
 }
 
-h1 {
-    font-family: 'Kaushan Script', cursive;
-    color: #f1f7ed;
-    font-size: 3rem;
-    padding: 1rem;
-    margin: 0;
-}
-
 /* nav bar */
 
 nav {
@@ -40,7 +46,6 @@ nav {
 }
 
 nav li {
-    font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;
     display: inline-block;
     padding: 0.5rem;
@@ -91,10 +96,6 @@ footer {
 
 /* homepage subheadings */
 
-h2 {
-    font-family: 'Special Elite', sans-serif;
-}
-
 #tagline {
     text-align: center;
 }
@@ -106,7 +107,7 @@ h2 {
 
 #band-members li {
     display: inline-block;
-    font-family: 'Special Elite', sams-serif;
+    font-family: 'Special Elite', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -201,14 +202,6 @@ main {
     text-align: center;
 }
 
-h3 {
-    font-family: 'Special Elite', sans-serif;
-}
-
-dl {
-    font-family: Avenir, Arial, sans-serif;
-}
-
 dt {
     font-weight: bold;
 }
@@ -250,14 +243,9 @@ dd a {
     margin: 0 auto;
 }
 
-p {
-    font-family: Avenir, Arial, sans-serif;
-}
-
 /* about page */
 
 #about-gig-list li {
-    font-family: Avenir, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -293,15 +281,10 @@ i {
 
 #contact-methods label, #contact-methods input, #contact-methods textarea, #contact-methods button {
     display: block;
-    font-family: Avenir, Arial, sans-serif;
 }
 
 #contact-methods input, #contact-methods textarea, #contact-methods button {
     margin-bottom: 0.5rem;
-}
-
-button {
-    font-family: Avenir, Arial, sans-serif;
 }
 
 @media screen and (max-width: 900px) {
