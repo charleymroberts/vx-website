@@ -1,3 +1,11 @@
+
+
+
+
+
+
+---
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Charley Roberts,
@@ -106,3 +114,5 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+

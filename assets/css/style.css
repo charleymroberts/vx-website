@@ -78,7 +78,7 @@ footer {
 /* homepage hero image */
 
 #homepage-main-image {
-    background-image: url('../../assets/images/homepage-banner.jpeg');
+    background-image: url('../images/homepage-banner.jpeg');
     width: 100%;
     height: 35rem;
     background-repeat: no-repeat;
@@ -139,14 +139,14 @@ h2 {
 }
 
 #gigs-homepage-image {
-    background-image: url(../../assets/images/gigs-homepage.jpg);
+    background-image: url(../images/gigs-homepage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #music-homepage-image {
-    background-image: url(../../assets/images/band-playing-small.jpeg);
+    background-image: url(../images/band-playing-small.jpeg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@ h2 {
 }
 
 #about-homepage-image {
-    background-image: url(../../assets/images/vx-photo-small.jpg);
+    background-image: url(../images/vx-photo-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -170,7 +170,7 @@ h2 {
 /* other pages header image */
 
 .page-main-image {
-    background-image: url('../../assets/images/page-banner.jpg');
+    background-image: url('../images/page-banner.jpg');
     width: 100%;
     height: 17rem;
     background-repeat: no-repeat;
@@ -285,11 +285,11 @@ p {
     max-width: 100%;
 }
 
-/* Contact page */
-
-#contact-methods i {
+i {
     margin-right: 0.5rem;
 }
+
+/* Contact page */
 
 #contact-methods label, #contact-methods input, #contact-methods textarea, #contact-methods button {
     display: block;
@@ -328,13 +328,13 @@ button {
     }
 
     #homepage-main-image {
-        background-image: url('../../assets/images/homepage-banner-narrower.jpeg');
+        background-image: url('../images/homepage-banner-narrower.jpeg');
         height: 25rem;
         background-position: center top;
     }
 
     .page-main-image {
-        background-image: url('../../assets/images/page-banner-narrower.jpg');
+        background-image: url('../images/page-banner-narrower.jpg');
         background-position: center top;
         height: 20rem;
     }
