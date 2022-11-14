@@ -161,13 +161,13 @@ I deployed the site using GitHub Pages.
 - Audio clips and the 'lockdown' music video were recorded by the band
 - Photos and videos of the band were taken for us by friends and I have permission to use them 
 - The video in the 'what's contra' section was recorded by me
-- Icons are from Fontawesome
-- Fonts are from Google Fonts
+- Icons are from [Fontawesome](https://fontawesome.com)
+- Fonts are from [Google Fonts](https://fonts.google.com)
 
 ### Reference documents used: 
 - CodeInstitute HTML and CSS course material
 - CodeInstitute 'LoveRunning' walkthrough project guidance 
-- Mozilla Developer Network documentation on HTML and CSS
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) documentation on HTML and CSS
 
 ---
 
