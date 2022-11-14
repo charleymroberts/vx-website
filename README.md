@@ -8,6 +8,8 @@ Their existing website hasn't been updated for several years so they need a new 
 
 The website promotes the band and their music to audience members and event organisers, informs their existing fans about where they will be performing next, and provides contact details for the band.
 
+The website is live at [https://charleymroberts.github.io/vx-website/](https://charleymroberts.github.io/vx-website/)
+
 ![homepage on different screens](assets/images/homepage-screenshots.png)
 
 ---
@@ -96,20 +98,38 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 ### Visual design
 
-### Responsive design
+- The **colour scheme** mainly uses #081d21 (a dark green/black) for the header and footer and #f1f7ed (mint cream) for the background of the body, with black body text on the mint cream background or mint cream text on the dark green background. Colours were chosen to provide sufficient contrast between text and background elements and to complement the colours of the header image.  I used the website [coolors.co](coolors.co) to help me choose colours which go together.
+
+- The **background** is kept deliberately plain so as not to distract from the images and text. The images themselves are quite colourful and busy, and there is quite a lot of text content on some of the pages, so a more detailed background could feel overwhelming to the user.
+
+- The **overall** design is fairly neutral, as the website will potentially be accessed by a variety of users, so it does not want to be strongly targeted at any one demographic or age group.
+
+- The **fonts** were chosen to add visual interest and are intended to convey a modern but slightly informal feel, while also being uncomplicated enough to be fairly easy to read. I used two main fonts, Special Elite for headings and Mulish for the body text, with alternative backup fonts of Arial and sans-serif specified in the `font-family`. Additionally I used Kaushan Script solely for the `<h1>` text in the main page header.  These fonts were taken from [Google Fonts](fonts.google.com) and are displayed using a script copied from Google Fonts into the css file of the website.
+
+- I initially created wireframes using [Balsamiq](https://balsamiq.com/) to help me design the layout of the site.
 
 ### Accessibility considerations
+
+- The text overlaid on the clickable images on the homepage has a dark background added, to provide more contrast with the text than the photos on their own would provide.
+
+- The header has an aria-label to inform the user that it is a link back to the homepage if clicked, and the Facebook logo in the footer contains an aria-label to tell the user that it is a link to the band's Facebook page and that it opens in a new tab. These are the only elements which are not already described in ways accessible to screen readers.
+
+- I did not add aria-labels to the background images used in the header or on the homepage (or format them as images with alt-text), as these are present for decoration and do not add to the information content of the page. The only photo which could arguably convey informative content is the close-up of the band (in the link to the 'about' page), but there is already text on the homepage immediately above it conveying the same information (i.e that there are four band members and the instruments they play).
+
+### Responsive design
+
+The CSS uses two `@media-query` to adjust how the website is displayed at a screen `max-width` of 900px (for tablets) and of 500px (for phones). The 500px settings also work for smaller phones of 320px.  I used various devices in my house (desktop screen, laptop screen, iPad and two sizes of iPhone) and the tool in Google Chrome Devtools which renders the website on different sizes of screen to check that the website displays correctly at a range of different sizes.
 
 ---
 ## Testing
 
 ### Checkers
 
-No problems found on the w3checker for HTML
+No problems found by the Nu Html checker [https://validator.w3.org/](https://validator.w3.org/)
+ 
+No problems found on the Jigsaw W3C CSS checker [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-No problems found on the jigsaw checker for CSS
-
-100% acessibility score on Lighthouse (in browser Devtools)
+100% acessibility score on Lighthouse (in browser DevTools) for desktop and mobile versions of the site
 
 ### Bugs
 
