@@ -4,9 +4,9 @@ Vertical Expression are a UK-based contra dance (folk dance) band who perform at
 
 ## Key project goals & target audience
 
-Their existing website hasn't been updated for several years so they need a new one which looks modern, incorporates best practice in UI/UX design to provide a positive experience for the user, is built using responsive design to display properly on phones and tablets and meets today's accessibility standards.
+The band's existing website hasn't been updated for several years so they need a new one which looks modern, incorporates best practice in UI/UX design to provide a positive experience for the user, is built using responsive design to display properly on phones and tablets and meets today's accessibility standards.
 
-The website promotes the band and their music to audience members and event organisers, informs their existing fans about where they will be performing next, and provides contact details for the band.
+The website promotes the band and their music to audience members and event organisers, informs their fans about where they will be performing next, and provides contact details for the band.
 
 The website is live at [https://charleymroberts.github.io/vx-website/](https://charleymroberts.github.io/vx-website/)
 
@@ -17,7 +17,7 @@ The website is live at [https://charleymroberts.github.io/vx-website/](https://c
 ## Users of this website and their goals
 
 Fans of the band: 
-- To find out where they are next performing and access details of the events
+- To find out where the band are next performing and access details of the events
 
 Potential event attendees who haven't heard the band before: 
 - To hear what the band's music sounds like
@@ -50,7 +50,7 @@ Header, footer, banner image and navbar features are consistent in location and 
 
 - Tagline summarising the band in a few words, and list of band members and instruments, to explain within a few seconds who the band are and what they do.
 
-- Links to the three most frequently visited pages, with images to add more visual interest to the homepage and visually convey more information about the band. Images fade on hover to give feedback to the user that they are clickable links.
+- Links to the three most frequently visited pages, with images to add more visual interest to the homepage. Images fade on hover to give feedback to the user that they are clickable links.
 
 ### Gigs page
 
@@ -66,7 +66,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 ### About page
 
-- Primarily text content in order to describe the band and the type of dancing they play for in more detail.
+- Primarily text content describing the band and the type of dancing they play for in more detail.
 
 - Also includes one video embedded from YouTube to illustrate the textual description of contra dancing. Includes play/stop/mute/volume controls, fullscreen option and does not play automatically on loading the page.
 
@@ -110,11 +110,11 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
     - The **background** is kept deliberately plain so as not to distract from the images and text. The images themselves are quite colourful and busy, and there is quite a lot of text content on some of the pages, so a more detailed background could feel overwhelming to the user.
 
-**Overall design**
+- **Overall design**
 
     - The **overall design** is fairly neutral, as the website will potentially be accessed by a variety of users, so it does not want to be strongly targeted at any one demographic or age group.
 
-**Layout**
+- **Layout**
 
     - I initially created wireframes using [Balsamiq](https://balsamiq.com/) to help me design the layout of the site. The main components of the layout are kept the same across all pages to give the user an intuitive experience as they navigate around the site.
 
