@@ -1,8 +1,129 @@
+# Vertical Expression
+
+Vertical Expression are a UK-based contra dance (folk dance) band who perform at folk festivals and other dance events around the country. 
+
+Their existing website hasn't been updated for several years so they need a new one which looks more modern, incorporates best practice in UI/UX design, is built using responsive design to display properly on phones and tablets and meets today's accessibility standards.
+
+The website promotes the band to audience members and event organisers, and informs their existing fans about where they will be performing next.
+
+![homepage on different screens](assets/images/homepage-screenshots.png)
+
+---
+
+## Users of this website and their goals
+
+Fans of the band: 
+- To find out where they are next performing and access details of the events
+
+Potential event attendees who haven't heard the band before: 
+- To hear what the band's music sounds like
+
+Event organisers who are considering booking the band: 
+- To hear the band's music, find out which other events they have previously performed at, and find their contact details
+
+Event organisers Who have already booked the band:
+- To access information needed for their event (biog, hi res photo and tech spec)
+
+---
+
+## Existing features
+
+### Across all pages
+
+Header, footer, banner image and navbar features are consistent in location and visual design across the whole site for ease of navigation and to ensure the user feels that all pages are part of the same site, with some adjustments to sizes to accommodate responsive design.
+
+- Header styled into a square background - present on every page so the user knows whose website they're looking at whichever page they first arrive on.
+
+- Navbar in the top right of the pgae, with the most frequently used pages as the leftmost items, and the contact page in the furthest right position, as per convention. Navbar items have underline to show the current page and change of colour on hover to indicate that they are clickable links.
+
+- Footer to denote the end of the page, which contains a link to the band's Facebook page.
+
+- The 'hero' image on the homepage is used as a header image across all pages. A cropped version (i.e. shorter height) is used on the non-homepage pages and a shorter-width version is used for tablet and mobile screens to ensure it displays well on each page.
+
+### Homepage
+
+- Eyecatching hero image which aims to quickly convey to the user a sense of energy and movement and a positive feeling about the band.
+
+- Tagline summarising the band in a few words, and list of band members and instruments, to explain within a few seconds who the band are and what they do.
+
+- Links to the three most frequently visited pages, with images to add more visual interest to the homepage and visually convey more information about the band. Images fade on hover to give feedback to the user that they are clickable links.
+
+### Gigs page
+
+- A simple list of upcoming and past events, with links to the websites of upcoming events so users can find the details they need in order to attend.
+
+### Music page
+
+Users can listen to the band's music, either as audio clips or video clips with audio, depending if they want visual content or not alongside the music.
+
+- Audio clips presented using the browsers own audio player, with stop/play/mute/volume controls and without autoplay.
+
+- Video clips embedded from the band's Facebook page (using embed code provided by Facebook). Includes stop/play/mute/volume controls and fullscreen option, and videos do not play automatically on loading the page.
+
+### About page
+
+- Primarily text content in order to describe the band and the type of dancing they play for in more detail.
+
+- Also includes one video embedded from YouTube to illustrate the textual description of contra dancing. Includes play/stop/mute/volume controls, fullscreen option and does not play automatically on loading the page.
+
+- The horizontal image partway down the page (provided mainly for decoration) uses the <picture> element in order to enable responsive design.  The browser has a choice of three image files available so it can select the one most suitable for that browser. The image files are a wider image containing three photos intended for desktop and laptop (and landscape view on tablet) screens, a narrower one containing two photos intended for portrait tablet screens, and a single photo for phone screens.  The three-photo image is also provided as an <img> in case the browser does not recognise the <picture> element.
+
+### Promo & tech info page
+
+- This page is for event organisers who have booked the band to obtain information they need for their event.  Each piece of information (biography, publicity photo and tech spec) is provided as a download so organisers can easily save it to their computer for later use, and also displayed on screen so they are not obliged to download it first in order to view its contents.
+
+### Contact page
+
+-
+
+## Features not included in this release
+
+---
+
+## UI design
+
+### Visual design
+
+### Responsive design
+
+### Accessibility considerations
+
+---
+## Testing
+
+### Checkers
+
+No problems found on the w3checker for HTML
+
+No problems found on the jigsaw checker for CSS
+
+100% acessibility score on Lighthouse (in browser Devtools)
+
+### Bugs
 
 
 
+---
+## Deployment
 
+(Description of the process goes here)
 
+('Technologies used?')
+
+---
+## Credits
+
+- Text was written by myself
+- Audio clips and the 'lockdown' music video were recorded by the band
+- Photos and videos of the band were taken for us by friends and I have permission to use them 
+- The video in the 'what's contra' section was recorded by me
+- Icons are from Fontawesome
+- Fonts are from Google Fonts
+
+### Reference documents used: 
+- CodeInstitute HTML and CSS course material
+- CodeInstitute 'LoveRunning' walkthrough project guidance 
+- Mozilla Developer Network documentation on HTML and CSS
 
 ---
 
