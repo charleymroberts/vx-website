@@ -2,9 +2,11 @@
 
 Vertical Expression are a UK-based contra dance (folk dance) band who perform at folk festivals and other dance events around the country. 
 
-Their existing website hasn't been updated for several years so they need a new one which looks more modern, incorporates best practice in UI/UX design, is built using responsive design to display properly on phones and tablets and meets today's accessibility standards.
+## Key project goals & target audience
 
-The website promotes the band to audience members and event organisers, and informs their existing fans about where they will be performing next.
+Their existing website hasn't been updated for several years so they need a new one which looks modern, incorporates best practice in UI/UX design to provide a positive experience for the user, is built using responsive design to display properly on phones and tablets and meets today's accessibility standards.
+
+The website promotes the band and their music to audience members and event organisers, informs their existing fans about where they will be performing next, and provides contact details for the band.
 
 ![homepage on different screens](assets/images/homepage-screenshots.png)
 
@@ -21,7 +23,7 @@ Potential event attendees who haven't heard the band before:
 Event organisers who are considering booking the band: 
 - To hear the band's music, find out which other events they have previously performed at, and find their contact details
 
-Event organisers Who have already booked the band:
+Event organisers who have already booked the band:
 - To access information needed for their event (biog, hi res photo and tech spec)
 
 ---
@@ -34,7 +36,7 @@ Header, footer, banner image and navbar features are consistent in location and 
 
 - Header styled into a square background - present on every page so the user knows whose website they're looking at whichever page they first arrive on.
 
-- Navbar in the top right of the pgae, with the most frequently used pages as the leftmost items, and the contact page in the furthest right position, as per convention. Navbar items have underline to show the current page and change of colour on hover to indicate that they are clickable links.
+- Navbar in the top right of the page, with the most frequently used pages as the leftmost items, and the contact page in the furthest right position, as per convention. Navbar items display an underline to show the current page and change colour on hover to indicate that they are clickable links.
 
 - Footer to denote the end of the page, which contains a link to the band's Facebook page.
 
@@ -66,7 +68,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 - Also includes one video embedded from YouTube to illustrate the textual description of contra dancing. Includes play/stop/mute/volume controls, fullscreen option and does not play automatically on loading the page.
 
-- The horizontal image partway down the page (provided mainly for decoration) uses the <picture> element in order to enable responsive design.  The browser has a choice of three image files available so it can select the one most suitable for that browser. The image files are a wider image containing three photos intended for desktop and laptop (and landscape view on tablet) screens, a narrower one containing two photos intended for portrait tablet screens, and a single photo for phone screens.  The three-photo image is also provided as an <img> in case the browser does not recognise the <picture> element.
+- The horizontal image partway down the page (provided mainly for decoration) uses the `<picture>` element in order to enable responsive design.  The browser has a choice of three image files available so it can select the one most suitable for that browser. The image files are a wider image containing three photos intended for desktop and laptop (and landscape view on tablet) screens, a narrower one containing two photos intended for portrait tablet screens, and a single photo for phone screens.  The three-photo image is also provided as an `<img>` in case the browser does not recognise the `<picture>` element.
 
 ### Promo & tech info page
 
@@ -74,9 +76,19 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 ### Contact page
 
--
+- Simple contact details page providing an email address, link to the band's Facebook page and a HTML contact form.
+
+- Note that the contact form is not functional: for the purposes of this project I have included it to show how I would use HTML and CSS to create the front end. I have used a GET request to display a 'thank you' page (instead of a POST request to send the form data to a server which would be used in a fully functional version of this website).
 
 ## Features not included in this release
+
+### Hamburger menu on phone screens
+
+- A hamburger menu instead of the existing navbar would make the website look tidier on phone screens. However, as I have not yet learned how to implement one and as the existing navbar is perfectly useable as it is and displays adequately, I have decided not to try and include this feature.
+
+### List of previous gigs with a `<details>` element
+
+- On a future version of the website I could include the band's full list of previous gigs, using a `<details>` element to display each year's gigs in a collapsible menu with one element for each year (with the year as the `<summary>` element).
 
 ---
 
