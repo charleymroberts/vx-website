@@ -98,15 +98,25 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 ### Visual design
 
-- The **colour scheme** mainly uses #081d21 (a dark green/black) for the header and footer and #f1f7ed (mint cream) for the background of the body, with black body text on the mint cream background or mint cream text on the dark green background. Colours were chosen to provide sufficient contrast between text and background elements and to complement the colours of the header image.  I used the website [coolors.co](coolors.co) to help me choose colours which go together.
+- **Colours**
 
-- The **background** is kept deliberately plain so as not to distract from the images and text. The images themselves are quite colourful and busy, and there is quite a lot of text content on some of the pages, so a more detailed background could feel overwhelming to the user.
+    - The **colour scheme** mainly uses #081d21 (a dark green/black) for the header and footer and #f1f7ed (mint cream) for the background of the body, with black body text on the mint cream background, or mint cream text on the dark green background. Colours were chosen to provide sufficient contrast between text and background elements and to complement the colours of the header image.  I used the website [coolors.co](coolors.co) to help me choose colours which go together.
 
-- The **overall** design is fairly neutral, as the website will potentially be accessed by a variety of users, so it does not want to be strongly targeted at any one demographic or age group.
+- **Fonts**
 
-- The **fonts** were chosen to add visual interest and are intended to convey a modern but slightly informal feel, while also being uncomplicated enough to be fairly easy to read. I used two main fonts, Special Elite for headings and Mulish for the body text, with alternative backup fonts of Arial and sans-serif specified in the `font-family`. Additionally I used Kaushan Script solely for the `<h1>` text in the main page header.  These fonts were taken from [Google Fonts](fonts.google.com) and are displayed using a script copied from Google Fonts into the css file of the website.
+    - The **fonts** were chosen to add visual interest and are intended to convey a modern but slightly informal feel, while also being uncomplicated enough to be fairly easy to read. I used two main fonts, Special Elite for headings and Mulish for the body text, with alternative backup fonts of Arial and sans-serif specified in the `font-family`. Additionally I used Kaushan Script solely for the `<h1>` text in the main page header.  These fonts were taken from [Google Fonts](fonts.google.com) and are displayed using a script copied from Google Fonts into the css file of the website.
 
-- I initially created wireframes using [Balsamiq](https://balsamiq.com/) to help me design the layout of the site.
+- **Background**
+
+    - The **background** is kept deliberately plain so as not to distract from the images and text. The images themselves are quite colourful and busy, and there is quite a lot of text content on some of the pages, so a more detailed background could feel overwhelming to the user.
+
+**Overall design**
+
+    - The **overall design** is fairly neutral, as the website will potentially be accessed by a variety of users, so it does not want to be strongly targeted at any one demographic or age group.
+
+**Layout**
+
+    - I initially created wireframes using [Balsamiq](https://balsamiq.com/) to help me design the layout of the site. The main components of the layout are kept the same across all pages to give the user an intuitive experience as they navigate around the site.
 
 ### Accessibility considerations
 
@@ -118,7 +128,9 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 ### Responsive design
 
-The CSS uses two `@media-query` to adjust how the website is displayed at a screen `max-width` of 900px (for tablets) and of 500px (for phones). The 500px settings also work for smaller phones of 320px.  I used various devices in my house (desktop screen, laptop screen, iPad and two sizes of iPhone) and the tool in Google Chrome Devtools which renders the website on different sizes of screen to check that the website displays correctly at a range of different sizes.
+- The CSS uses two `@media-query` to adjust how the website is displayed at a screen `max-width` of 900px (for tablets) and of 500px (for phones). The 500px settings also work for smaller phones of 320px.  I used various devices in my house (desktop screen, laptop screen, iPad and two sizes of iPhone) and the tool in Google Chrome Devtools which renders the website on different sizes of screen to check that the website displays correctly at a range of different sizes.
+
+- Most elements of the site are sized in rems, so that they will automatically resize themselves to suit the size of the screen they are being viewed on.  I found I needed to resize a few elements to make them display sensibly with the screen widths specified in the media queries for tablet and phone screens: the square background to the `<h1>` (as it overlapped the header photo too much otherwise), the navbar `<li>` items, the header images (I used a couple of different versions of the same image that were cropped in different ways) and the videos embedded from Facebook using iframes on the 'Music' page.
 
 ---
 ## Testing
@@ -129,18 +141,18 @@ No problems found by the Nu Html checker [https://validator.w3.org/](https://val
  
 No problems found on the Jigsaw W3C CSS checker [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-100% acessibility score on Lighthouse (in browser DevTools) for desktop and mobile versions of the site
+100% acessibility score on Lighthouse (in browser DevTools) for desktop and mobile versions of the site.
+
+All internal links and hyperlinks have been checked and found to be working correctly.
 
 ### Bugs
 
-
+One thing I had difficulty with was making iframes display properly on smaller screen sizes.  They did not appear to respond to any attempts to automatically resize them (such as sizing in rems or implementing a `max-width` of 100%), it seemed they needed to be given fixed heights and widths in pixels.  At one point the overflow content from one of the iframes made the footer appear partway up the page when viewed on phone screems.  I worked around this by selecting a manual size for the iframe that fitted onto all phone screens tested, including smaller ones, although it would display as a slightly different proportion of different sized phone screens.
 
 ---
 ## Deployment
 
-(Description of the process goes here)
-
-('Technologies used?')
+I deployed the site using GitHub Pages.
 
 ---
 ## Credits
