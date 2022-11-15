@@ -68,7 +68,7 @@ Header, footer, banner image and navbar features are consistent in location and 
 
 Users can listen to the band's music, either as audio clips or video clips with audio, depending if they want visual content or not alongside the music.
 
-- Audio clips presented using the browsers own audio player, with stop/play/mute/volume controls and without autoplay.
+- Audio clips presented using the browser's own audio player, with stop/play/mute/volume controls and without autoplay.
 
 - Video clips embedded from the band's Facebook page (using embed code provided by Facebook). Includes stop/play/mute/volume controls and fullscreen option, and videos do not play automatically on loading the page.
 
@@ -80,7 +80,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 - Also includes one video embedded from YouTube to illustrate the textual description of contra dancing. Includes play/stop/mute/volume controls, fullscreen option and does not play automatically on loading the page.
 
-- The horizontal image partway down the page (provided mainly for decoration) uses the `<picture>` element in order to enable responsive design.  The browser has a choice of three image files available so it can select the one most suitable for that browser. The image files are a wider image containing three photos intended for desktop and laptop (and landscape view on tablet) screens, a narrower one containing two photos intended for portrait tablet screens, and a single photo for phone screens.  The three-photo image is also provided as an `<img>` in case the browser does not recognise the `<picture>` element.
+- The horizontal image partway down the page (provided mainly for decoration and to convey a general positive impression of the band) uses the `<picture>` element in order to enable responsive design.  The browser has a choice of three image files available so it can select the one most suitable for that browser. The image files are a wider image containing three photos intended for desktop and laptop (and landscape view on tablet) screens, a narrower one containing two photos intended for portrait tablet screens, and a single photo for phone screens.  The three-photo image is also provided as an `<img>` in case the browser does not recognise the `<picture>` element.
 
 ![picture element screenshots](doc/picture-element-screenshot.png)
 
@@ -94,11 +94,11 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 - Simple contact details page providing an email address, link to the band's Facebook page and a HTML contact form.
 
-![contact form](doc/contact-screenshot.png)
+
 
 - Note that the contact form is not functional: for the purposes of this project I have included it to show how I would use HTML and CSS to create the front end. I have used a GET request to display a 'thank you' page (instead of a POST request to send the form data to a server which would be used in a fully functional version of this website).
 
-![thank you message](doc/thankyou-screenshot.png)
+![contact form](doc/contact-forms.png)
 
 ## Features not included in this release
 
@@ -108,7 +108,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 ### List of previous gigs with a `<details>` element
 
-- On a future version of the website I could include the band's full list of previous gigs, using a `<details>` element to display each year's gigs in a collapsible menu with one element for each year (with the year as the `<summary>` element).
+- On a future version of the website I could include the band's full list of previous gigs, using a `<details>` element to display each year's gigs in a collapsible menu with one element for each year (with the year as the content of the `<summary>` element).
 
 ---
 
@@ -122,7 +122,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 - **Fonts**
 
-    - The **fonts** were chosen to add visual interest and are intended to convey a modern but slightly informal feel, while also being uncomplicated enough to be fairly easy to read. I used two main fonts, Special Elite for headings and Mulish for the body text, with alternative backup fonts of Arial and sans-serif specified in the `font-family`. Additionally I used Kaushan Script solely for the `<h1>` text in the main page header.  These fonts were taken from [Google Fonts](https://fonts.google.com) and are displayed using a script copied from Google Fonts into the css file of the website.
+    - The **fonts** were chosen to add visual interest and are intended to convey a modern but slightly informal feel, while also being uncomplicated enough to be fairly easy to read. I used two main fonts, Special Elite for headings and Mulish for the body text, with alternative backup fonts of Arial and sans-serif specified in the `font-family`. Additionally I used Kaushan Script solely for the `<h1>` text in the main page header.  These fonts were taken from [Google Fonts](https://fonts.google.com) and are displayed using a script copied from Google Fonts into the CSS stylesheet of the website.
 
 - **Background**
 
@@ -140,7 +140,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 - The text overlaid on the clickable images on the homepage has a dark background added, to provide more contrast with the text than the photos on their own would provide.
 
-- The header has an `aria-label` to inform the user that it is a link back to the homepage if clicked, and the Facebook logo in the footer contains an aria-label to tell the user that it is a link to the band's Facebook page and that it opens in a new tab. These are the only elements which are not already described in ways accessible to screen readers.
+- The header has an `aria-label` to inform the user that it is a link back to the homepage if clicked, and the Facebook logo in the footer contains an aria-label to tell the user that it is a link to the band's Facebook page and that it opens in a new tab. These are the only elements which are not already described in ways accessible to screen readers (other than images included purely for decoration).
 
 - I did not add `aria-label`s to the background images used in the header or on the homepage (or format them as images with `alt` text), as these are present for decoration and do not add to the information content of the page. The only photo which could arguably convey informative content is the close-up of the band (in the link to the 'about' page), but there is already text on the homepage immediately above it conveying the same information (i.e that there are four band members and the instruments they play).
 
