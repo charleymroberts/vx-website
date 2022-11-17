@@ -192,6 +192,7 @@ I deployed the site using GitHub Pages.  The steps were:
 - The video in the 'what's contra' section was recorded by me
 - Icons are from [Fontawesome](https://fontawesome.com)
 - Fonts are from [Google Fonts](https://fonts.google.com)
+- favicon created using [favicon.io](https://favicon.io/favicon-generator/)
 
 ### Reference documents used: 
 - CodeInstitute HTML and CSS course material
