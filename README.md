@@ -140,7 +140,7 @@ Users can listen to the band's music, either as audio clips or video clips with 
 
 - The text overlaid on the clickable images on the homepage has a dark background added, to provide more contrast with the text than the photos on their own would provide.
 
-- The header has an `aria-label` to inform the user that it is a link back to the homepage if clicked, and the Facebook logo in the footer contains an aria-label to tell the user that it is a link to the band's Facebook page and that it opens in a new tab. These are the only elements which are not already described in ways accessible to screen readers (other than images included purely for decoration).
+- The header has an `aria-label` to inform the user that it is a link back to the homepage if clicked, and the Facebook logo in the footer contains an aria-label to tell the user that it is a link to the band's Facebook page and that it opens in a new tab. These are the only elements which are not already described in ways accessible to screen readers (other than images included purely for decoration). I also added `aria-label`s to the navbar menu items for extra clarity.
 
 - I did not add `aria-label`s to the background images used in the header or on the homepage (or format them as images with `alt` text), as these are present for decoration and do not add to the information content of the page. The only photo which could arguably convey informative content is the close-up of the band (in the link to the 'about' page), but there is already text on the homepage immediately above it conveying the same information (i.e that there are four band members and the instruments they play).
 
